@@ -1,4 +1,4 @@
-# Arduino_Uno_R4_LED_Matrix_Vertical2x2
+<h1 align="center">Arduino_Uno_R4_LED_Matrix_Vertical2x2</h1>
 
 <p align="center">
   <a href="https://github.com/Big-ol-Corgi/Arduino_Uno_R4_LED_Matrix_Vertical2x2/releases/latest">
@@ -9,3 +9,37 @@
 <p align="center">
     A Library for displaying 4 numbers (2x2) of character size 3x7 on the R4 LED matrix
 </p>
+<p align="center">
+    Inspired from <a href="https://github.com/mgecawicz">mgecawicz's</a> library, <a href="https://github.com/mgecawicz/Arduino_Uno_R4_2_Digit_Display">Arduino_Uno_R4_2_Digit_Display</a>.
+</p>
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Basic Usage](#usage)
+- [Examples](#examples)
+
+---
+
+## Features
+
+- Generates 4-precision 2-Scale float numbers for the Arduino Uno R4's LED Matrix.
+- Supports numbers from 0.0 to 99.99
+
+---
+
+## Installation
+
+1. Download the library by clicking on the **[Latest Release](https://github.com/Big-ol-Corgi/Arduino_Uno_R4_LED_Matrix_Vertical2x2/releases/latest)** link.
+2. Extract the downloaded ZIP file.
+3. Move the extracted folder to the Arduino libraries directory.
+   - For Windows: `Documents/Arduino/libraries/`
+   - For macOS: `~/Documents/Arduino/libraries/`
+   - For Linux: `~/Arduino/libraries/`
+4. Restart the Arduino IDE.
+
+---
+
