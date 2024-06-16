@@ -66,7 +66,7 @@
       { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
     };
    ```
-5. Create the sketch loop with the drawNumber function:
+5. Create the sketch loop with the drawNumberFloat function:
    ```cpp
    void loop(){
     drawNumberFloat(48.50,frame);
@@ -100,7 +100,7 @@ uint8_t frame[8][12] = {
 };
 
 void loop(){
-  drawNumber(48.50,frame);
+  drawNumberFloat(48.50,frame);
   matrix.renderBitmap(frame, 8, 12);
 }
 ```
